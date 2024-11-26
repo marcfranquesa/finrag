@@ -1,0 +1,94 @@
+{
+    "resp": [
+        {
+            "Feature ID": null,
+            "Feature name": "Outage Monitoring",
+            "Feature tag": "System Reliability",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Monitoring and reporting of Datahub outages.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "B2B Interface Response Times",
+            "Feature tag": "Performance",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Monitoring and reporting of stable B2B interface response times.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Service Request Processing",
+            "Feature tag": "Service Management",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Improved response times and reduced number of open service requests.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Customer Portal Reliability",
+            "Feature tag": "System Reliability",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Monitoring and improving the reliability of the customer portal process.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Data Quality Improvement",
+            "Feature tag": "Data Management",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Improving and monitoring the quality of customer and address information.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Unnecessary Data Updates",
+            "Feature tag": "Data Management",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Reducing unnecessary updates to customer and contract information.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Datahub 2.0 Delivery",
+            "Feature tag": "Software Delivery",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Ensuring the delivery of Datahub 2.0.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Patch Version 1.9.0 Delivery",
+            "Feature tag": "Software Delivery",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Delivery of patch version 1.9.0 in September.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Software Bug Repairs",
+            "Feature tag": "Bug Fixes",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Repair of software bugs in the backlog.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": null,
+            "Feature name": "Improving Service Request Processing",
+            "Feature tag": "Service Management",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Improving the processing of service requests.",
+            "Status": "existing"
+        }
+    ]
+}

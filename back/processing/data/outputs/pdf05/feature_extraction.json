@@ -1,0 +1,67 @@
+{
+    "resp": [
+        {
+            "Feature ID": "unknown",
+            "Feature name": "Mandate of the development working group",
+            "Feature tag": "Organizational",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Presentation of the mandate of the development working group",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": "unknown",
+            "Feature name": "Presentation of members of the development team",
+            "Feature tag": "Team",
+            "user_name": "unknown",
+            "user_id": 2,
+            "Brief description": "Introduction of the development team members",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": "unknown",
+            "Feature name": "Customer service",
+            "Feature tag": "Service",
+            "user_name": "Marjut Puukangas",
+            "user_id": 3,
+            "Brief description": "Overview of the customer service",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": "unknown",
+            "Feature name": "Development team",
+            "Feature tag": "Team",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Overview of the development team",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": "unknown",
+            "Feature name": "Review of the operating model",
+            "Feature tag": "Operational",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Review of the current operating model",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": "unknown",
+            "Feature name": "General introduction and management of open development proposals",
+            "Feature tag": "Development",
+            "user_name": "Marko Juslin",
+            "user_id": 1,
+            "Brief description": "Introduction and management of open development proposals",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": "unknown",
+            "Feature name": "Next meeting times",
+            "Feature tag": "Schedule",
+            "user_name": "unknown",
+            "user_id": 4,
+            "Brief description": "Discussion of next meeting times",
+            "Status": "existing"
+        }
+    ]
+}

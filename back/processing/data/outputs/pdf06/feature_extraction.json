@@ -1,0 +1,229 @@
+{
+    "resp": [
+        {
+            "Feature ID": 30,
+            "Feature name": "Real-time status of the place of use in CMS",
+            "Feature tag": "CMS",
+            "user_name": "Laura",
+            "user_id": 1,
+            "Brief description": "Update the connection status of the place of use to CMS in real time.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 51,
+            "Feature name": "Include user interface error codes in the AVR document",
+            "Feature tag": "Documentation",
+            "user_name": "Laura",
+            "user_id": 1,
+            "Brief description": "Add industry error codes related to the user interface to the published FD.CMD.AVR document.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 318,
+            "Feature name": "Changing the customer's name to the date of the customer's identifier",
+            "Feature tag": "Bug Fix",
+            "user_name": "Nelli",
+            "user_id": 2,
+            "Brief description": "Fix a bug where the operator's customer identification update does not consider possible name updates.",
+            "Status": "modified"
+        },
+        {
+            "Feature ID": 59,
+            "Feature name": "New validation rule for event DH-124-1",
+            "Feature tag": "Validation",
+            "user_name": "Laura",
+            "user_id": 1,
+            "Brief description": "Block the validation rule update requests for user location information, requesting user group BE14.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": 142,
+            "Feature name": "Do not accept to update the annual usage estimate if the value does not change",
+            "Feature tag": "Data Update",
+            "user_name": "Laura",
+            "user_id": 1,
+            "Brief description": "Do not allow the update event of the annual usage estimate if it contains the information already found in Datahub.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": 160,
+            "Feature name": "Operator cancellation development",
+            "Feature tag": "Process Automation",
+            "user_name": "Nelli",
+            "user_id": 2,
+            "Brief description": "Develop the contract cancellation process used by the Datahub operator to automate email messages.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": 102,
+            "Feature name": "Search for measurement data in the user interface",
+            "Feature tag": "Search",
+            "user_name": "Pauliina",
+            "user_id": 3,
+            "Brief description": "Proposal related to the search for measurement data, which has been found to be a driver-oriented problem that does not require development.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": 168,
+            "Feature name": "Transmission of measurement data in connection with retroactive contract changes",
+            "Feature tag": "Data Transmission",
+            "user_name": "Pauliina",
+            "user_id": 3,
+            "Brief description": "Automatically send ongoing measurement data in connection with the initiation of retroactive contracts.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": 266,
+            "Feature name": "Measurement information reminders when a disconnected object is reported consumption",
+            "Feature tag": "Reminder",
+            "user_name": "Pauliina",
+            "user_id": 3,
+            "Brief description": "Send a reminder of what was reported to the disconnected object of consumption only once.",
+            "Status": "existing"
+        },
+        {
+            "Feature ID": 206,
+            "Feature name": "New type 'Communication contact information' party contact for information",
+            "Feature tag": "Contact Information",
+            "user_name": "Nelli",
+            "user_id": 2,
+            "Brief description": "Transfer contact information for data exchange from the Datahub Services portal to Datahub.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 32,
+            "Feature name": "Mutual selection of annual usage estimate and time zone information",
+            "Feature tag": "Data Consistency",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Find out whether there is conflicting information in Datahub where two annual usage estimates have been reported for this location or vice versa.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 37,
+            "Feature name": "Use of message ID for connection and disconnection notifications in mediation",
+            "Feature tag": "Notification",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Use message ID for connection and disconnection notifications in mediation.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 80,
+            "Feature name": "List of places of use of the authorized business customer",
+            "Feature tag": "Authorization",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "List of places of use getting it from Datahub would reduce the work for everyone when 3rd parties would not have to figure out how to get it from a customer or network company.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 86,
+            "Feature name": "Energy production type visible to 3rd parties",
+            "Feature tag": "Energy Production",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Make energy production type visible to 3rd parties.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 87,
+            "Feature name": "Review date for reports",
+            "Feature tag": "Reporting",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Add the proposed review date information for reports.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 88,
+            "Feature name": "Validation of information arriving at Datahub",
+            "Feature tag": "Validation",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Validate the information arriving at Datahub.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 98,
+            "Feature name": "Development of the Open Events report",
+            "Feature tag": "Reporting",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Develop a report for the review and processing of open events.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 101,
+            "Feature name": "Changes to the measurement data search view",
+            "Feature tag": "Search",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Make changes to the measurement data search view.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 106,
+            "Feature name": "Blocking a connection request if there is no previous disconnection request",
+            "Feature tag": "Validation",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Block a connection request if there is no previous disconnection request.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 108,
+            "Feature name": "Review date field to be active in the place of use view",
+            "Feature tag": "User Interface",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Make the review date field active in the place of use view.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 118,
+            "Feature name": "Report on places of use by vendor",
+            "Feature tag": "Reporting",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Generate a report on places of use by vendor.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 124,
+            "Feature name": "Mandatory time step in DH-122-1 message",
+            "Feature tag": "Message Format",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Make the time step mandatory in the DH-122-1 message.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 125,
+            "Feature name": "Mandatory measuring range DH-126-1- and DH-127-1-sano",
+            "Feature tag": "Message Format",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Make the measuring range mandatory in DH-126-1- and DH-127-1-sano.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 137,
+            "Feature name": "Your connection delays delay in application",
+            "Feature tag": "Notification",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Bring information about safe connection to Datahub.",
+            "Status": "new"
+        },
+        {
+            "Feature ID": 149,
+            "Feature name": "Changing the format of the usage location ID",
+            "Feature tag": "ID Format",
+            "user_name": "unknown",
+            "user_id": 0,
+            "Brief description": "Change the format of the usage location ID.",
+            "Status": "new"
+        }
+    ]
+}

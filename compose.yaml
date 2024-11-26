@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgres:15
+    container_name: db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./back/db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    restart: always
+
+  api:
+    container_name: api
+    build: ./back/api
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: "postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:${POSTGRES_PORT}/${POSTGRES_DB}"
+
+  front:
+    container_name: front
+    build: ./front
+    ports:
+      - "8000:3000"
+    depends_on:
+      - api
+
